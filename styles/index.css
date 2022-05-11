@@ -72,10 +72,6 @@ h1::after {
   margin: 240px auto;
 }
 
-.resume-section {
-  overflow-y: scroll;
-}
-
 .item {
   display: flex;
   flex-direction: column;
