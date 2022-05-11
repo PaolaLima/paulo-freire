@@ -48,6 +48,12 @@
   .sub-section {
     margin: 60px auto;
   }
+
+  .title-section {
+    font-size: 0.8rem;
+
+    margin-top: 200px;
+  }
 }
 
 @media screen and (min-width: 800px) {
