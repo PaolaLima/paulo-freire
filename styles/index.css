@@ -6,13 +6,26 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg: #111827;
+  --text: #ffffff;
+  --separator: #8f8fa9;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  color: var(--text);
+
+  background-color: var(--bg);
 }
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 h1::after {
@@ -21,7 +34,20 @@ h1::after {
   height: 2px;
   width: 40%;
 
-  background-color: rgb(157, 145, 145);
+  background-color: var(--separator);
+
+  display: block;
+
+  margin: 20px auto;
+}
+
+.item p::after {
+  content: "";
+
+  height: 2px;
+  width: 40%;
+
+  background-color: var(--separator);
 
   display: block;
 
@@ -55,7 +81,7 @@ h1::after {
   height: 100%;
   max-width: 1000px;
 
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .image-box {
